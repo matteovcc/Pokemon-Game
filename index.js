@@ -17,6 +17,7 @@ image.src = "./images/Pellet Town.png"
 
 
 image.onload = () => {
-    ctx.drawImage(image, 0, 0) //disegnamo l'immagine al caricare della pagina
+    ctx.drawImage(image, -700, -500) //disegnamo l'immagine al caricare della pagina -700px asse x e -500px asse y
+
 }
 //console.log(canvas)
